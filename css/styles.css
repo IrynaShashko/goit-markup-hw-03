@@ -18,6 +18,7 @@
 
 body {
     font-family: roboto, sans-serif;
+    min-width: 1200px;
 }
 
 .list {
@@ -156,7 +157,7 @@ img {
     top: 2097px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .street-address {
@@ -236,6 +237,7 @@ img {
 
 .mail-link {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 .tel-link:hover,
@@ -245,6 +247,7 @@ img {
 
 .tel-link {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 .hero-btn {
