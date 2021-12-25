@@ -18,7 +18,6 @@
 
 body {
     font-family: roboto, sans-serif;
-    min-width: 1200px;
 }
 
 .list {
@@ -73,11 +72,6 @@ img {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.header {
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-list {
@@ -178,6 +172,7 @@ img {
     color: var(--main-text-color);
     font-weight: 500;
     letter-spacing: 0.02em;
+    display: block;
 }
 
 .studio-title-about {
@@ -189,7 +184,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -204,12 +198,6 @@ img {
 
 .header-nav-link {
     margin-right: 50px;
-}
-
-.nav-link {
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .header-list .header-nav-link:last-child {
@@ -252,10 +240,6 @@ img {
 
 .hero-btn {
     font-family: Roboto, sans-serif;
-    width: 145px;
-    height: 38px;
-    left: 712px;
-    top: 174px;
     background: var(--color-section);
     color: var(--main-text-color);
     border-radius: 4px;
@@ -265,6 +249,13 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     border: none;
+    padding: 6px 22px;
+}
+
+.hero {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    border-top: 1px solid #ECECEC;
 }
 
 .hero-btn:hover,
@@ -291,11 +282,14 @@ img {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    /* identical to box height, or 187% */
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--color-btn);
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
 }
 
 .hero-list-title {
@@ -314,10 +308,8 @@ img {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
-    /* identical to box height, or 187% */
     letter-spacing: 0.03em;
     color: var(--second-text-color);
-    margin-bottom: 20px;
     padding-left: 30px;
 }
 
@@ -326,7 +318,6 @@ img {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--color-active);
     margin-right: 93px;
@@ -339,11 +330,6 @@ img {
 .logo-color-white {
     color: var(--color-btn);
 }
-
-
-/* .main-hero-studio {
-    padding: 200px 452px;
-} */
 
 .main-hero-studio {
     padding-top: 200px;
@@ -376,11 +362,17 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .info-container {
     display: flex;
     align-items: center;
+}
+
+.info-container .li {
+    width: 270px;
 }
 
 .img-list-studio {
@@ -407,6 +399,9 @@ img {
     margin-left: 30px;
 }
 
+.work {
+    padding-bottom: 94px;
+}
 
 .li-team {
     background: #FFFFFF;
@@ -414,7 +409,10 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-
+.hero-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .hero-list-btn {
     display: flex;
     justify-content: center;
@@ -440,14 +438,6 @@ img {
     margin-right: 30px;
 }
 
-.img-portfolio {
-    margin-bottom: 30px;
-}
-
 .hero-item:not(:nth-child(n+7)) {
     margin-bottom: 30px;
-}
-
-.hero-item:nth-child(n+7) {
-    margin-bottom: 94px;
 }
