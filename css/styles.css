@@ -106,8 +106,10 @@ img {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
     font-weight: 400;
     color: var(--second-text-color);
+    width: 270px;
 }
 
 .team-title {
@@ -115,7 +117,6 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.8;
-    margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
@@ -129,7 +130,6 @@ img {
     color: var(--second-text-color);
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
 }
 
 .team-studio-title {
@@ -145,13 +145,19 @@ img {
     background: var(--color-section);
 }
 
+.team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 59px;
+    padding-right: 59px;
+}
+
 .footer {
     background: var(--footer-color);
     left: 0px;
     top: 2097px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .street-address {
@@ -226,6 +232,7 @@ img {
 .mail-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    line-height: 1.7;
 }
 
 .tel-link:hover,
@@ -236,6 +243,7 @@ img {
 .tel-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    line-height: 1.7;
 }
 
 .hero-btn {
@@ -301,7 +309,6 @@ img {
     letter-spacing: 0.06em;
     color: var(--main-text-color);
     margin-bottom: 4px;
-    padding-left: 30px;
 }
 
 .hero-list-after-title {
@@ -310,7 +317,6 @@ img {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
-    padding-left: 30px;
 }
 
 .logo {
@@ -371,9 +377,10 @@ img {
     align-items: center;
 }
 
-.info-container .li {
-    width: 270px;
+.info-container .info-li-title+.info-li-title {
+    margin-left: 30px;
 }
+
 
 .img-list-studio {
     display: flex;
@@ -412,7 +419,10 @@ img {
 .hero-card {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
+
 .hero-list-btn {
     display: flex;
     justify-content: center;
